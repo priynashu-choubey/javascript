@@ -8,9 +8,4 @@ accountEmail="pc13@pc.com"
 accountPass="112245"
 accountCity="Bengaluru"
 console.table([accountID,accountEmail,accountPass,accountCity,accountState]);
-
-
-
-
-
 console.log(accountID); 
