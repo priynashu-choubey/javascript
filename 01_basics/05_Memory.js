@@ -17,5 +17,6 @@ let userTwo={
     upi: "choubey@apl"
 };
 userTwo=userOne;
+userTwo.email=""
 console.log(userOne.email);
 console.log(userTwo.email);
