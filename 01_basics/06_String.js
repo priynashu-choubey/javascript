@@ -14,3 +14,6 @@ const newName=gameName.slice(-8,4)
 console.log(newName);
 const url="https://Priyanshu%20choubey.in"
 console.log(url.replace('%20','_'));
+console.log(url.includes('_'));
+console.log(gameName.valueOf());
+console.log(gameName.toString(5));
