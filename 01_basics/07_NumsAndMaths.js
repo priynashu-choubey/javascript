@@ -4,8 +4,13 @@
 // console.log(balance.toString().length);
 // console.log(balance.toString(2));
 // const otherNum =23.4541;
+<<<<<<< HEAD
 // console.log(otherNum.toPrecision(2));
 // console.log(otherNum.toFixed(2).localeSting('en-IN'));
+=======
+//console.log(otherNum.toPrecision(2));
+//console.log(otherNum.toFixed(2).localeSting('en-IN'));
+>>>>>>> 9292c63 (Final Push)
 
 //Maths Library
 
@@ -16,7 +21,11 @@ console.log(Math.floor((Math.random()*10)+1));
 /*+++++++++++++ WE HAVE A TRICK   ++++++++++*/
 const min=10;
 const max=20;
+<<<<<<< HEAD
 console.log(Math.floor(Math.random()*(max-min+1))+min);
 
 //This is a trick to produce a random number with a given range
+=======
+console.log(Math.floor(Math.random()*(max-min*10))+min);
+>>>>>>> 9292c63 (Final Push)
 
