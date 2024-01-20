@@ -6,6 +6,9 @@ console.log(balance.toString(2));
 const otherNum =23.4541;
 console.log(otherNum.toPrecision(2));
 console.log(otherNum.toFixed(2).localeSting('en-IN'));
+console.log(Math.ceil(4.254));
+console.log(Math.floor(4.9));
+
 
 //Maths Library
 
