@@ -7,10 +7,6 @@
 <<<<<<< HEAD
 // console.log(otherNum.toPrecision(2));
 // console.log(otherNum.toFixed(2).localeSting('en-IN'));
-=======
-//console.log(otherNum.toPrecision(2));
-//console.log(otherNum.toFixed(2).localeSting('en-IN'));
->>>>>>> 9292c63 (Final Push)
 
 //Maths Library
 
