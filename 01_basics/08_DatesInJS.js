@@ -26,3 +26,11 @@ console.log();
 //(In this format the month starts from 01 for january unlike other two declaration type)        
 let myCreatedDate3=new Date("2023-012-22");  
 console.log(myCreatedDate3);
+
+//====================================================================================================
+
+//                  TIME
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);
+console.log(myCreatedDate.getTime());
+console.log(Math.floor(Date.now()/1000));
