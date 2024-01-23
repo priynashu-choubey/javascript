@@ -36,3 +36,4 @@
 
 //-----------------SPLICE------------------
 const arr4=myArray.splice(0,1,"Mango")
+console.log(arr4);
