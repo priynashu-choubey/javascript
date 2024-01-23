@@ -7,6 +7,7 @@ console.log(myDate.toString('IN'));
 console.log(myDate.toDateString());
 console.log(myDate.toLocaleDateString());
 console.log(typeof (myDate));
+console.log(myDate.toUTCString());
 console.log();
 console.log();
 console.log();
@@ -34,3 +35,10 @@ let myTimeStamp = Date.now();
 console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());
 console.log(Math.floor(Date.now()/1000));
+console.log(`The time is ${Math.floor(Date.now()/1000)}`);
+
+myCreatedDate.toLocaleString('default',{
+    weekday :"long", 
+    
+});
+console.log(myCreatedDate);
