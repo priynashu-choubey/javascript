@@ -1,6 +1,7 @@
 // --------------------------01--------------------
 
- const myArray=[0,1,2,3,4,5];
+ const myArray=[0,1,2,3];
+ const Fruits=["Mango","Banana","Guava","Blackberry"];
 // console.log(myArray[2]);
 // myArray.push(6,7,8);
 // console.log("A: ",myArray);
@@ -29,11 +30,17 @@
 // console.log("A:",newArr);
 
 //------------------SLICE-----------------
-// console.log("A:",myArray);
-// const arr3=myArray.slice(1,4);
-// console.log(arr3);
-// console.log("B:",myArray);
+ console.log("Before:",myArray);
+ const arr3=myArray.slice(1,4);
+ console.log("NEW ARRAY ",arr3);
+ console.log("After",myArray);
 
 //-----------------SPLICE------------------
-const arr4=myArray.splice(0,1,"Mango")
-console.log(arr4);
+// console.log("Fruits Before:",Fruits);
+// const arr4=Fruits.splice(4,null,"new element")
+// console.log("We get this",arr4);
+// console.log("Fruits After :",Fruits);
+// console.log("mArray Before:",myArray);
+// const arr5=myArray.splice(0,1);
+// console.log(arr5);
+// console.log("myArray after: ",myArray);
