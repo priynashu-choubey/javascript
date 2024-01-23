@@ -1,3 +1,5 @@
+
+/*            CODE AUR CHAI (remove the comment block to access)
 //++++++++++++++++++ DATES++++++++++++
 //      1
 
@@ -41,4 +43,13 @@ myCreatedDate.toLocaleString('default',{
     weekday :"long", 
     
 });
-console.log(myCreatedDate);
+console.log(myCreatedDate);*/
+
+
+
+
+
+//- - - - - - - - - - -MDN- - - - - - - - - - - - - -
+const Date1= new Date();
+console.log(Date.parse());
+console.log(new Date().toLocaleTimeString());
