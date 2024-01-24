@@ -1,6 +1,6 @@
-// const marvel_h=["Thor","Ironman","Captain","Spidy"];
+ const marvel_h=["Thor","Ironman","Captain","Spidy"];
 // console.log("Marvel:",marvel_h);
-// const dc_h=["Superman","Flash","Batman"];
+ const dc_h=["Superman","Flash","Batman"];
 // console.log("DC: ",dc_h);
 // console.log("After Push: ",marvel_h.push(dc_h));
 // const allHeros=marvel_h.concat(dc_h);
