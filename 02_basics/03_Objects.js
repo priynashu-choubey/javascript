@@ -1,0 +1,34 @@
+const mysym1= Symbol("unique");
+//object declaration //symbol declaration
+const jsuser={
+   name:"priyanshu",
+   "full name":"peiyanshu choubey",
+   age:"18",
+   location:"jablpur",
+   email:"priyanshuchoubey@gmail.com",
+   isloggedin:false,
+   lastloggedin:["monday","suturday"],
+   [mysym1]:"key1"}
+jsuser.greeting=function(){
+   console.log("Hello JSUser");
+}
+jsuser.greetingtwo=function(){
+  console.log(`Hello JS User ${this.name}`); 
+}
+//object access
+console.log(jsuser.email);  // . notation
+console.log(jsuser["email"]);  // [] notation
+console.log(typeof jsuser[mysym1]);
+jsuser.greeting();
+jsuser.greetingtwo();
+
+/*****************************************************************/
+/* const mySym=Symbol("Key1"); 
+ const JsUser2={
+ [mySym]:"myKey1"
+ }
+ console.log(JsUser2[mySym]);
+ console.log(typeof JsUser2[mySym]);
+ console.log(JsUser2[mySym]);
+ console.log(typeof JsUser2.mySym);
+console.log(typeof JsUser2["mySym"]); */
