@@ -21,9 +21,12 @@ console.log(jsuser["email"]);  // [] notation
 console.log(typeof jsuser[mysym1]);
 jsuser.greeting();
 jsuser.greetingtwo();
+console.log(jsuser.greeting);  //Funtion ka *reference* aaya hai function execute ni hua hai.
+
+
 
 /*****************************************************************/
-/* const mySym=Symbol("Key1"); 
+const mySym=Symbol("Key1"); 
  const JsUser2={
  [mySym]:"myKey1"
  }
@@ -31,4 +34,7 @@ jsuser.greetingtwo();
  console.log(typeof JsUser2[mySym]);
  console.log(JsUser2[mySym]);
  console.log(typeof JsUser2.mySym);
-console.log(typeof JsUser2["mySym"]); */
+console.log(typeof JsUser2["mySym"]);
+console.log(`${JsUser2.mySym}`);
+// console.log(jsuser);
+// console.log(JsUser2);
