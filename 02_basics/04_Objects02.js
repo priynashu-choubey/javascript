@@ -32,5 +32,44 @@ const obj2={3:"a",4:"b"}
 //console.log(obj3);   */               // Method 01
 /* obj3=Object.assign(obj1,obj2);       //Method 02
 console.log(obj3); */
-obj3=Object.assign({},obj1,obj2);       //Method 03
-console.log(obj3); 
+/* obj3=Object.assign({},obj1,obj2);       //Method 03
+console.log(obj3);  */
+/* const obj3={...obj1,...obj2};          // Moethod 04
+console.log(obj3); */
+
+/******************************************************************************************/
+
+//   --05--
+//*NOTE* - when data comes from Databses it always comes in the form of Arrays of Objects
+/* const User=[
+{
+id:"1",
+email:"p@gmail.com"
+},
+{
+    id:"2",
+    email:"r@gmail.com"
+},
+{
+    id:"3",
+    email:"i@gmail.com"
+}
+]
+//This is called Array of Objects
+console.log(User[1].email.length);    //Accesing array of Objects
+console.log(User[1].email);
+ */
+
+//   --06-- Object. Func
+
+const newTinderUser={}
+newTinderUser.id="123abc"
+newTinderUser.name="Sam"
+newTinderUser.isLoggedIn=false
+console.log(newTinderUser);
+console.log(Object.keys(newTinderUser));
+console.log(Object.values(newTinderUser));
+console.log(Object.entries(newTinderUser));
+
+//Loop through करते समय अगर value exist नहीं करती then
+console.log(newTinderUser.hasOwnProperty(newTinderUser.isLoggedIn));
