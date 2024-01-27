@@ -30,5 +30,7 @@ const obj1={1:"a",2:"b"}
 const obj2={3:"a",4:"b"}
 /* const obj3={obj1,obj2}
 //console.log(obj3);   */               // Method 01
-obj3=Object.assign(obj1,obj2);
-console.log(obj3);
+/* obj3=Object.assign(obj1,obj2);       //Method 02
+console.log(obj3); */
+obj3=Object.assign({},obj1,obj2);       //Method 03
+console.log(obj3); 
