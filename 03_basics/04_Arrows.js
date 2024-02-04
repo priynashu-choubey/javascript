@@ -36,3 +36,28 @@ of any browser
 }
 one() */
 
+//Ex. -02->
+/* const chai =function(){
+    const username="Priyanshu";
+    console.log(username);         //normal output
+    // but if
+    console.log(this.username);    // undefined
+}
+chai() */
+
+
+// Example 03 ->
+/* const one=()=>                  // Arrow func Syntax
+{
+    console.log(username);         //normal output
+// but if
+console.log(this.username);    // undefined
+}
+one() */
+
+//Example 04  ->
+/* const addTwo=(num1,num2) =>{
+return num1+num2;
+}
+console.log(addTwo(3,6));
+addTwo() */
