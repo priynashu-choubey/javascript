@@ -1,5 +1,5 @@
 // starting with the This  Keyword
-const user ={
+/* const user ={
     username:"Priyanshu",
     price:999,
     welcomeMessage:function(){
@@ -12,7 +12,7 @@ user.username="ritesh";
 user.welcomeMessage()
 console.log(this);       //this here gives nothing n=but a blank object   {}
 
-
+ */
 /* 
 
 function thisInvoking() {
@@ -28,8 +28,11 @@ of any browser
 
 /*******               +Arrow Function+       [ ()  =>{}]    ***********/ 
 //Ex. 01-
-function one() {
+/* function one() {
     let username="Priyanshu";
-    console.log(this.u);
+    console.log(this);
+    console.log(username);
     
 }
+one() */
+
