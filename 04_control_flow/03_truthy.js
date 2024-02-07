@@ -30,7 +30,7 @@ if (Object.keys(emptyObj).length === 0) {
 */
 
 /* 03. Nullish Coalescing Operator (??): null undefined
-
+prevents the error caused by the null or undefined value returned by a function
 let val1;
 // val1 = 5 ?? 10
 // val1 = null ?? 10
