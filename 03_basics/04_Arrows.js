@@ -61,3 +61,31 @@ return num1+num2;
 }
 console.log(addTwo(3,6));
 addTwo() */
+
+
+//Implicit Return 
+
+/* const chai=(num1,num2)=>num1+num2
+console.log(chai(3,2))
+ */
+
+
+/* //MDN DOCS BLOCK Line 73-89
+//lets make a normal function step by step as a simplest implicit arrow function
+( function(a){
+    return a+1;
+});
+a(6);
+// Or
+
+    (ab) => {
+        return ab+1;
+    };
+
+//then 
+(abc) => (abc+1);
+
+//then 
+abcd=> (abcd+1);   //final  */
+
+

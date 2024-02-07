@@ -51,5 +51,5 @@ console.log(myCreatedDate);*/
 
 //- - - - - - - - - - -MDN- - - - - - - - - - - - - -
 const Date1= new Date();
-console.log(Date.parse());
+console.log(Date.parse(`EN-IN`));
 console.log(new Date().toLocaleTimeString());
