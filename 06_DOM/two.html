@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html> 
 <head>
+    <meta lang="en">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM | Chai Aur Code </title>
-</head>
-<body style="background-color: #212121;">
+</head> 
+<body style="background-color: #212121; color: whitesmoke;">
     <div class="parent">
         <div class="day">Monday </div>
         <div class="day">Tuesday  </div> 
@@ -15,7 +16,28 @@
     </div>
 </body>
 <script>
-    const parent=querySelector('.parent');
-    console.log(parent.children);
+    const prnt=document.querySelector('.parent');
+   /*  console.log(prnt);
+    console.log(prnt.children);
+    console.log(prnt.children[0].innerHTML);
+    console.log(prnt.children[1].innerHTML);
+    console.log(prnt.children[2].innerHTML);
+    console.log(prnt.children[3].innerHTML);
+    console.log(prnt.style.backgroundColor='red'); */
+/*     for (let index = 0; index < prnt.children.length; index++) {
+        console.log(prnt.children[index].innerHTML);
+        } 
+*/
+console.log(prnt.children[1].color='red');
+prnt.children[1].style.color='red';
+console.log(prnt.firstElementChild);
+console.log(prnt.lastElementChild);
+
+const dayOne=document.querySelector('.day');
+console.log(dayOne);
+console.log(dayOne.style.color='orange');
+console.log(dayOne.parentElement);
+console.log(dayOne.nextElementSibling);
+console.log("NODES: ",prnt.childNodes);
 </script>
 </html>
