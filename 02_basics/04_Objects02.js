@@ -1,4 +1,4 @@
-/*  //--01--
+/*  --01--
 const tinderUser= new Object();
 const tinderUser1={}
 tinderUser1.id="123abc"
@@ -119,3 +119,11 @@ repetitive code and makes accessing object properties more efficient.
 Destructuring can also be used to rename properties during extraction, set default values if a property is missing, and extract properties from nested objects. It is a powerful feature that improves code maintainability and
 readability.
  */
+
+/* JSON
+{
+   " name ":"Priyanshu",
+    "course": "JS",
+    "goal": "React"
+} 
+    */
